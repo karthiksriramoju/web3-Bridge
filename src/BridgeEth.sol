@@ -5,7 +5,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
 contract BridgeEth is Ownable {
 
-  constructor() Ownable(msg.sender) {};
+  constructor() Ownable(msg.sender) {}
 
   function lock () public {
 
