@@ -4,17 +4,16 @@
 Web3 Bridge is a **Foundry-based** smart contract project designed to facilitate cross-chain asset transfers. The project includes core bridge contracts that enable seamless interaction between different blockchain networks. 
 
 ## Features
-- **Cross-chain compatibility**: Supports asset transfers between different chains.
 - **Secure bridge contract**: Implements safe and efficient token bridging.
-- **ERC-20 token support**: Works with custom tokens such as Wkar and Kar.
+- **ERC-20 token support**: Works with custom tokens
 - **EVM-compatible bridge**: Supports bridging between EVM-compatible chains.
 - **Lock & Mint Mechanism**: Locks KAR tokens on the Ethereum chain and mints WKAR tokens on the base chain.
 
 ## Smart Contracts
 The core contracts in the `src` directory include:
 
-- **BridgeBase.sol**: Base contract for bridge functionalities.
-- **BridgeEth.sol**: Ethereum-specific bridge implementation.
+- **BridgeEth.sol**: Bridge implementation on one chain.
+- **BridgeBase.sol**: Bridgge implementation on other chain.
 - **Wkar.sol**: Wrapped KAR token contract.
 - **Kar.sol**: KAR token contract.
 
